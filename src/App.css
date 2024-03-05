@@ -5,6 +5,14 @@ body {
     align-items: center;
     height: 100vh;
     justify-content: center;
+    background-color: rgb(24, 164, 207);
+    color: white;
+}
+
+.heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .wrapper {
@@ -12,7 +20,6 @@ body {
     width: 500px;
     background-color: rgb(236, 233, 233);
     border-radius: 15px;
-    border: 1px solid black;
     position: relative;
     overflow: hidden;
     padding: 6px 0;
@@ -28,7 +35,7 @@ body {
 }
 
 .progress-color {
-    background-color: red;
+    background-color: rgb(235, 66, 66);
     height: 100%;
     position: absolute;
     top: 0;
